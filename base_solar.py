@@ -23,7 +23,7 @@ def drawSphere(radius, slices, stacks):
     global mesh
     sphere = gluNewQuadric()
     gluQuadricNormals(sphere, GLU_SMOOTH)
-    gluSphere(sphere, radius, slices, stacks)
+    #gluSphere(sphere, radius, slices, stacks)
     if mesh:
         glColor3f(0.5, 0.5, 0.5)  # Color del enmallado, gris para contraste
         # Dibujar meridianos
